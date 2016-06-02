@@ -27,6 +27,6 @@ logger.pl is a Perl program which is required to run as daemon process.
                   cpan[2]> install Net::Finger [If you going to run that particular Perl script using crontab]
        
 4.	Refer the logger.pl file to source code for the Perl daemon process implementation. 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BEWARE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BEWARE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    when you add Perl scripts to crontab those files. Because when crontab running it WILL NOT check the existence of the particular Perl (or whatever) process so your process will be replicated and finally you will lose the CPU and memory resources. 
+       when you add Perl scripts to crontab those files. Because when crontab running it WILL NOT check the existence of the particular Perl (or whatever) process so your process will be replicated and finally you will lose the CPU and memory resources. 
